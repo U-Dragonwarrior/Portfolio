@@ -245,7 +245,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const sampleProjects = {
-  title: "CompletedProjectss",
+  title: "Completed Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
