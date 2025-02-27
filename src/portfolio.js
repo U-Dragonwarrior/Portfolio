@@ -208,7 +208,7 @@ const workExperiences = {
     {
       role: "No-Code Specialist",
       company: "Fiverr.com",
-      companylogo: require("./assets/images/Fiverr.jpg"),
+      companylogo: require("./assets/images/Fiverr111.jpg"),
       date: "March 2016 - Present",
       desc: "",
       descBullets: [
