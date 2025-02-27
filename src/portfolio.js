@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Volodymyr Kolomoiets",
-  title: "Hi, I am Volodymyr Kolomoiets",
+  username: "Volodymyr Usenco",
+  title: "Hi, I am Volodymyr Usenco",
   subTitle: emoji(
-    "With over 🚀 +7 years of expertise experience in WordPress & Shopify with Ecommerce. I specialize in building stunning and appealing high-performance websites and custom themes with modern designs. I am also passionate in Front-end and Back-end development with React, Next."
+    "Greetings! I am a seasoned No-Code Specialist with over 🚀 7 years of experience transforming ideas into stunning, fully-functional websites and automated workflows. My expertise spans across industry-leading platforms like WordPress, Shopify, and GoHighLevel (GHL), allowing me to deliver tailored, user-friendly solutions that exceed client expectations."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,11 +33,11 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/U-DragonWarrior",
-  linkedin: "https://www.linkedin.com/in/volodymyr-kolomoiets/",
-  gmail: "shomeyparadise228@gmail.com?subject=Hello%20Homey&body=How%20are%20you%20doing%20today",
-  telegram: "https://t.me/@TelDragonWarrior",
-  discord: "https://discord.com/users/scdragonwarrior_20228",
+  // github: "https://github.com/U-DragonWarrior",
+  // linkedin: "https://www.linkedin.com/in/volodymyr-kolomoiets/",
+  // gmail: "shomeyparadise228@gmail.com?subject=Hello%20Homey&body=How%20are%20you%20doing%20today",
+  // telegram: "https://t.me/@TelDragonWarrior",
+  // discord: "https://discord.com/users/scdragonwarrior_20228",
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
@@ -51,14 +51,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CLEAN AND TIDY WEB DESIGNER AND CRAZY WEB DEVELOPER PUSHING MYSELF TO CREATE PERFECT ONE.",
+  subTitle: "Whether you need a custom-built WordPress site, a Shopify store that drives sales, or a GHL automation to streamline your business processes, I am here to make it happen.",
   skills: [
     emoji(
-      "⚡ As a designer, I create visually appealing and user-friendly designs."
+      "⚡ WordPress Expert: Delivered 150+ WordPress projects, from simple blogs to complex e-commerce solutions, with pixel-perfect design and responsiveness."
     ),
-    emoji("⚡ As a WordPress and Shopify developer, I build custom websites and eCommerce solutions."),
+    emoji("⚡ Shopify Wizard: Designed and customized Shopify stores, enhancing user experience and optimizing for conversions."),
     emoji(
-      "⚡ As a full-stack developer, I design, build, and maintain dynamic web applications, front-end and back-end development."
+      "⚡ GoHighLevel Specialist: Built automated sales funnels, workflows, and email campaigns to save clients hours of manual work and increase ROI."
     )
   ],
 
@@ -158,24 +158,24 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Kyiv National Economic University",
-      logo: require("./assets/images/KyivNational EconomicUniversity.png"),
-      subHeader: "Bachelor of Applied Science (BASc)",
-      duration: "2020 - 2024",
+      schoolName: "Kirovohrad National Technical University",
+      logo: require("./assets/images/Kirovohrad National.png"),
+      subHeader: "Bachelor of Computer Science (BCompSc)",
+      duration: "2001-2005",
       desc: "",
       // descBullets: [
       //   "",
       //   ""
       // ]
     },
-    {
-      schoolName: "SKyiv University of Culture",
-      logo: require("./assets/images/Kyiv University of Culture.png"),
-      subHeader: "Bachelor of Arts (BA), Visual Design",
-      duration: "2015 - 2019",
-      // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
+    // {
+    //   schoolName: "SKyiv University of Culture",
+    //   logo: require("./assets/images/Kyiv University of Culture.png"),
+    //   subHeader: "Bachelor of Arts (BA), Visual Design",
+    //   duration: "2015 - 2019",
+    //   // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+    //   // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    // }
   ]
 };
 
@@ -185,15 +185,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Web Design", //Insert stack or technology you have experience in
+      Stack: "Zapier / API Integration", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Wordpress / Shopify",
+      Stack: "Hub Spot / GoHighLevel",
       progressPercentage: "85%"
     },
     {
-      Stack: "Front-end / Full-stack",
+      Stack: "OpenAI / AI Chatbot",
       progressPercentage: "89%"
     }
   ],
@@ -206,30 +206,38 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "WordPress Developer",
-      company: "Glomex GmbH",
-      companylogo: require("./assets/images/glomex.png"),
-      date: "February 2024 - November 2024",
-      desc: "Develop WordPress themes and Plugins.",
+      role: "No-Code Specialist",
+      company: "Fiverr.com",
+      companylogo: require("./assets/images/Fiverr.jpg"),
+      date: "March 2016 - Present",
+      desc: "",
       descBullets: [
-        "Angular.js + Headless CMS based on WordPress installation",
-        "Gutenberg + ACFpro Block development",
-        "Configure VPS with LAMP/LEMP stack"
+        "Delivered over 150 projects using WordPress, Shopify, and GoHighLevel (GHL).",
+        "Automated workflows for small businesses, saving clients an average of 30% operational time.",
+        "Created eCommerce websites with Shopify that increased client sales by 40% on average."
       ]
     },
     {
-      role: "Web-developer",
-      company: "AVEX studio",
-      companylogo: require("./assets/images/avex.png"),
-      date: "March 2023 - January 2024",
-      desc: "I created websites with different levels of difficulty. Sometimes I configured WordPress templates."
+      role: "Web Developer",
+      company: "Kropyventskyy Digital Solutions",
+      companylogo: require("./assets/images/Digital_Mark.jpg"),
+      date: "July 2010 - February 2016",
+      desc: "",
+      descBullets: [
+        "Designed and developed websites for over 50 local businesses.",
+        "Introduced custom WordPress themes and plugins to enhance client website functionality."
+      ]
     },
     {
-      role: "Shopify developer",
-      company: "Voodoo Ecom",
-      companylogo: require("./assets/images/voodoo.png"),
-      date: "Creating custom Shopify website",
-      desc: "Creating template-based Shopify website, implementing custom features and functionalities, creating custom Shopify apps, migration from other platforms to Shopify, conducting profesional Shopify website audit, Shopify website speed optimization, SEO audit, UI/UX design"
+      role: "Junior Web Developer",
+      company: "Kropyventskyy IT Hub",
+      companylogo: require("./assets/images/Kropyventskyy IT Hub.png"),
+      date: "July 2005 - June 2010",
+      desc: "",
+      descBullets: [
+        "Assisted in developing responsive websites and web applications for local companies.",
+        "Gained hands-on experience with CMS platforms and front-end development tools."
+      ]
     }
   ]
 };
@@ -418,21 +426,21 @@ const blogSection = {
   blogs: [
     {
       url: "#",
-      title: "Web design builds trust and drives success.",
+      title: "❓ Why is the AI technology important?",
       description:
-        "What can you achieve with well-executed web design? Increased user engagement, higher conversions, and enhanced brand credibility."
+        "AI technology is important because it enhances efficiency, improves decision-making, and automates tasks across various industries. Here are some key reasons why AI is crucial."
     },
     {
       url: "#",
-      title: "What are the benefits of WordPress and Shopify?",
+      title: "❓ Why is API integration essential for connecting apps and automating workflows?",
       description:
-        "WordPress offers flexibility and customization, while Shopify provides an easy-to-use eCommerce platform with secure payments."
+        "API integration enables seamless data sharing and automation between applications, boosting efficiency, reducing errors, and driving innovation."
     },
     {
       url: "#",
-      title: "What is the importance of Full-stack development?",
+      title: "❓ Why is a CRM system essential for businesses?",
       description:
-        "Full-stack development enables developers to handle both front-end and back-end tasks, creating seamless, efficient, and scalable applications."
+        "A CRM (Customer Relationship Management) system helps businesses manage customer interactions, streamline sales, and improve relationships. It centralizes customer data, enhances communication, and boosts efficiency, leading to better customer satisfaction and business growth. 🚀"
     }
   ],
   display: true // Set false to hide this section, defaults to true
